@@ -10,8 +10,5 @@ eureka:
     hostname: localhost
 logging:
   level:
-    org.springframework.cloud.gateway: TRACE
-    org.springframework.http.server.reactive: DEBUG
-    org.springframework.web.reactive: DEBUG
-    reactor.ipc.netty: DEBUG
-    reactor.netty: DEBUG
+    org.springframework.web: "debug"
+    org.hibernate: "error"
