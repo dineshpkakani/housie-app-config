@@ -10,7 +10,7 @@ eureka:
     hostname: localhost
 logging:
   file:
-    name: d:/logs/application-debug.log
+    name: d:/2024/housie-debug.log
   level:
     org.springframework.web: "debug"
     org.hibernate: "error"
